@@ -97,4 +97,9 @@ Used SQL to:
 
 ---
 
+## 🙌 Final Thoughts
+
+This project showcases how marketing data can be transformed into clear, actionable insights using Power BI and SQL. It reflects practical skills in business analysis, visualization, and decision-making support.
+
+---
 
