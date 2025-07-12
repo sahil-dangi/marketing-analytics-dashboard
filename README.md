@@ -100,7 +100,7 @@ Used SQL to:
 ## 👤 Author
 
 **Sahil Dangi**  
-🌐 [GitHub](https://github.com/sahil-dangi/marketing-analytics-dashboard))
+🌐 [GitHub](https://github.com/sahil-dangi/marketing-analytics-dashboard)
 
 ---
 
