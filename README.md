@@ -88,12 +88,23 @@ This Power BI dashboard provides insights from data collected across three years
 ## 🧹 Data Cleaning & SQL Work
 
 Used SQL to:
-- Join customer and geographic data for enriched insights.
-- Categorize products by price bands (Low, Medium, High).
-- Clean and normalize text fields and engagement formats.
-- Extract views/clicks from combined fields.
-- Identify and remove duplicate records in customer journeys using CTEs and `ROW_NUMBER()`.
-- Fill missing durations with daily averages for accurate timeline analysis.
+- Join customer data with geographic information using `LEFT JOIN`.
+- Categorize products into pricing tiers using `CASE` statements.
+- Clean `ReviewText` fields by replacing extra spaces.
+- Normalize and extract `Views` and `Clicks` from combined columns.
+- Use `ROW_NUMBER()` to identify and filter duplicate customer journey records.
+- Replace missing durations with average values per date using `COALESCE` and window functions.
+
+---
+
+## 🧠 Sentiment Analysis with Python
+
+Used Python with `pandas`, `nltk`, and `pyodbc` to:
+- Connect to SQL Server and extract customer review data.
+- Analyze sentiment of reviews using VADER (from `nltk.sentiment`).
+- Combine VADER sentiment score with star rating to create detailed sentiment categories (e.g., Positive, Mixed Negative).
+- Bucket sentiment scores into defined ranges for grouped analysis.
+- Export the processed data to CSV for integration into Power BI.
 
 ---
 
