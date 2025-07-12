@@ -97,13 +97,4 @@ Used SQL to:
 
 ---
 
-## 👤 Author
 
-**Sahil Dangi**  
-🌐 [GitHub](https://github.com/sahil-dangi/marketing-analytics-dashboard)
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** — feel free to use, modify, and share.
